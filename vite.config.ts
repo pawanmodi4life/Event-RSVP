@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Event-RSVP/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
