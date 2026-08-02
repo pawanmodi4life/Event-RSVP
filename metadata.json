@@ -1,0 +1,6 @@
+{
+  "name": "SCI 65th Foundation Day",
+  "description": "Official 65th Foundation Day invitation, animated maritime journey, and digital boarding pass RSVP portal for The Shipping Corporation of India Ltd.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

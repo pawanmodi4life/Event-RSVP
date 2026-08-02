@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+body {
+  background: radial-gradient(circle at top right, #003366 0%, #001b3a 100%);
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
